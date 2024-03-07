@@ -8,9 +8,22 @@
 	},
 	"elements": [
 		{
-			"name": "block2",
-			"from": [0, 0, 0],
+			"name": "blockone",
+			"from": [0, 8, 0],
 			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 8, 4, 10], "texture": "#0"},
+				"east": {"uv": [8, 4, 10, 6], "texture": "#0"},
+				"south": {"uv": [8, 0, 12, 2], "texture": "#0"},
+				"west": {"uv": [8, 6, 10, 8], "texture": "#0"},
+				"up": {"uv": [12, 4, 8, 2], "texture": "#0"},
+				"down": {"uv": [8, 8, 4, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blocktwo",
+			"from": [0, 0, 0],
+			"to": [16, 8, 8],
 			"faces": {
 				"north": {"uv": [0, 8, 4, 10], "texture": "#0"},
 				"east": {"uv": [8, 4, 10, 6], "texture": "#0"},
@@ -27,7 +40,7 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"children": [0]
+			"children": [0, 1]
 		}
 	]
 }
