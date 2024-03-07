@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.mavity.slabs_build_additions.blockregister.BlockInit;
 import net.mavity.slabs_build_additions.itemregister.ItemInit;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -50,6 +51,9 @@ public class slabs_build_additions
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(BlockInit.VERTICAL_SLAB);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
