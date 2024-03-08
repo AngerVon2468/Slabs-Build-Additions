@@ -54,6 +54,9 @@ public class slabs_build_additions
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(BlockInit.VERTICAL_SLAB);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ItemInit.ROTATOR);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
