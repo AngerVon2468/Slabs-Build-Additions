@@ -11,8 +11,10 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import static net.mavity.slabs_build_additions.itemregister.ItemInit.ITEMS;
 
 public class BlockInit {
+    //Oak Vertical Slab
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(slabs_build_additions.MODID);
-    public static final DeferredBlock<VSlabClass> VERTICAL_SLAB = BLOCKS.register("vertical_slab",
+    public static final DeferredBlock<VSlabClass> OAK_VERTICAL_SLAB = BLOCKS.register("oak_vertical_slab",
             () -> new VSlabClass(PropertyInit.SBA_VSLAB));
-    public static final DeferredItem<BlockItem> VERTICAL_SLAB_ITEM = ITEMS.registerSimpleBlockItem("vertical_slab", VERTICAL_SLAB);
+    public static final DeferredItem<BlockItem> OAK_VERTICAL_SLAB_ITEM = ITEMS.registerSimpleBlockItem("oak_vertical_slab", OAK_VERTICAL_SLAB);
+
 }

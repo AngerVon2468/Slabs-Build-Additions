@@ -6,5 +6,6 @@ import net.minecraft.world.level.material.MapColor;
 public class PropertyInit {
     public static final BlockBehaviour.Properties SBA_VSLAB = BlockBehaviour.Properties.of()
             .noOcclusion()
-            .mapColor(MapColor.STONE);
+            .mapColor(MapColor.STONE)
+            .strength(2f, 2f);
 }
