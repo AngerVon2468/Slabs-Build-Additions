@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "vertical_slab",
+	"parent": "oak_vertical_slab",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "slabs_build_additions:block/vertical_slab",
-		"particle": "slabs_build_additions:block/vertical_slab"
+		"0": "slabs_build_additions:block/oak_vertical_slab",
+		"particle": "slabs_build_additions:block/oak_vertical_slab"
 	},
 	"elements": [
 		{
