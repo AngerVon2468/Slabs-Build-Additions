@@ -1,17 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:oak_planks"
-    },
-    {
-      "item": "minecraft:oak_planks"
-    },
-    {
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " a ",
+    " a "
+  ],
+  "key": {
+    "a": {
       "item": "minecraft:oak_planks"
     }
-  ],
+  },
   "result": {
-    "item": "slabs_build_additions:oak_vertical_slab"
+    "item": "slabs_build_additions:oak_vertical_slab",
+    "count": 6
   }
 }
