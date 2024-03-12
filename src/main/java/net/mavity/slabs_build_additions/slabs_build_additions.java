@@ -56,6 +56,8 @@ public class slabs_build_additions
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ItemInit.ROTATOR);
+            event.accept(ItemInit.PAIL);
+            event.accept(ItemInit.CEMENT_PAIL);
         }
     }
 
