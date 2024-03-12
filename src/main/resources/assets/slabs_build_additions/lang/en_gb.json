@@ -1,4 +1,6 @@
 {
   "block.slabs_build_additions.oak_vertical_slab": "Oak Vertical Slab",
-  "item.slabs_build_additions.rotator": "Block Rotator"
+  "item.slabs_build_additions.rotator": "Block Rotator",
+  "item.slabs_build_additions.pail": "Pail",
+  "item.slabs_build_additions.cement_pail": "Cement Pail"
 }
