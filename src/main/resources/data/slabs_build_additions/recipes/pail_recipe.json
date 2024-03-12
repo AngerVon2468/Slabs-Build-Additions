@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " c ",
+    "c c",
+    " b "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "slabs_build_additions:pail",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " e ",
+    "bdc",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "slabs_build_additions:pail"
+    },
+    "b": {
+      "item": "minecraft:calcite"
+    },
+    "c": {
+      "item": "minecraft:raw_iron"
+    },
+    "d": {
+      "item": "minecraft:lime_dye"
+    },
+    "e": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "slabs_build_additions:cement_pail",
+    "count": 1
+  }
+}
