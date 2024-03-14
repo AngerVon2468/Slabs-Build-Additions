@@ -9,33 +9,31 @@
 	"elements": [
 		{
 			"name": "blockone",
-			"from": [0, 8, 0],
-			"to": [16, 16, 8],
+			"from": [0, 8, 8],
+			"to": [16, 16, 16],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
-				"east": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#1"},
 				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
-				"west": {"uv": [8, 0, 16, 8], "texture": "#1"},
-				"up": {"uv": [16, 8, 0, 0], "texture": "#1"},
-				"down": {"uv": [16, 0, 0, 8], "texture": "#1"}
+				"west": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"up": {"uv": [16, 8, 0, 0], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [16, 0, 0, 8], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
 			"name": "blocktwo",
-			"from": [0, 0, 0],
-			"to": [16, 8, 8],
+			"from": [0, 0, 8],
+			"to": [16, 8, 16],
 			"faces": {
 				"north": {"uv": [0, 8, 16, 16], "texture": "#1"},
-				"east": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#1"},
 				"south": {"uv": [0, 8, 16, 16], "texture": "#1"},
-				"west": {"uv": [8, 8, 16, 16], "texture": "#1"},
-				"up": {"uv": [16, 16, 0, 8], "texture": "#1"},
-				"down": {"uv": [16, 8, 0, 16], "texture": "#1"}
+				"west": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"up": {"uv": [16, 16, 0, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [16, 8, 0, 16], "rotation": 180, "texture": "#1"}
 			}
 		}
 	],
-	"gui_light": "front",
-	"display": {},
 	"groups": [
 		{
 			"name": "VoxelShapes",

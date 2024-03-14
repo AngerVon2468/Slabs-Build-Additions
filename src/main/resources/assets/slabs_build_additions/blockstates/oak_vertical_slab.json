@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "slabs_build_additions:block/oak_vertical_slab"}
+    "": { "model": "slabs_build_additions:block/oak_vertical_slab"},
+    "two": { "model": "slabs_build_additions:block/oak_vertical_slab_two"},
+    "three": { "model": "slabs_build_additions:block/oak_vertical_slab_three"},
+    "four": { "model": "slabs_build_additions:block/oak_vertical_slab_four"}
   }
 }

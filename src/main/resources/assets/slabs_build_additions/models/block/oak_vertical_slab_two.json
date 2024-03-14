@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "oak_vertical_slab",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "slabs_build_additions:block/oak_vertical_slab",
+		"particle": "slabs_build_additions:block/oak_vertical_slab"
+	},
+	"elements": [
+		{
+			"name": "blockone",
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [16, 8, 0, 0], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [16, 0, 0, 8], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "blocktwo",
+			"from": [8, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"up": {"uv": [16, 16, 0, 8], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [16, 8, 0, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

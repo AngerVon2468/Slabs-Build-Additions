@@ -3,7 +3,7 @@
 	"parent": "oak_vertical_slab",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "slabs_build_additions:block/oak_vertical_slab",
+		"1": "slabs_build_additions:block/oak_vertical_slab",
 		"particle": "slabs_build_additions:block/oak_vertical_slab"
 	},
 	"elements": [
@@ -12,12 +12,12 @@
 			"from": [0, 8, 0],
 			"to": [16, 16, 8],
 			"faces": {
-				"north": {"uv": [0, 8, 4, 10], "texture": "#0"},
-				"east": {"uv": [8, 4, 10, 6], "texture": "#0"},
-				"south": {"uv": [8, 0, 12, 2], "texture": "#0"},
-				"west": {"uv": [8, 6, 10, 8], "texture": "#0"},
-				"up": {"uv": [12, 4, 8, 2], "texture": "#0"},
-				"down": {"uv": [8, 8, 4, 10], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [16, 8, 0, 0], "texture": "#1"},
+				"down": {"uv": [16, 0, 0, 8], "texture": "#1"}
 			}
 		},
 		{
@@ -25,15 +25,16 @@
 			"from": [0, 0, 0],
 			"to": [16, 8, 8],
 			"faces": {
-				"north": {"uv": [0, 8, 4, 10], "texture": "#0"},
-				"east": {"uv": [8, 4, 10, 6], "texture": "#0"},
-				"south": {"uv": [8, 0, 12, 2], "texture": "#0"},
-				"west": {"uv": [8, 6, 10, 8], "texture": "#0"},
-				"up": {"uv": [12, 4, 8, 2], "texture": "#0"},
-				"down": {"uv": [8, 8, 4, 10], "texture": "#0"}
+				"north": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"up": {"uv": [16, 16, 0, 8], "texture": "#1"},
+				"down": {"uv": [16, 8, 0, 16], "texture": "#1"}
 			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "VoxelShapes",
